@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Japoneh');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(https://cdn-images-1.medium.com/max/1600/1*vIflEk-NLP6BDUA63JatAQ.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.intro {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content {
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: cursive
+}
+.content h1 {
+    font-family: 'Raleway', monospace;
+    color: #FFFFFF;
+    text-shadow:  2px 2px 2px #000000;
+    font-size: 700%;
+}
+.btn {
+    border-radius: 18px;
+    font-family: "Oswald", sans-serif;
+    background-color: #ffffff;
+    color: #FF0000;
+    opacity: 0.9;
+    font-size: 135%;
+    padding: 10px 10px;
+    border: solid #FF0000 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover {
+    color: #000000;
+    border: solid #000000 2px;
+}
+.time {
+    position: fixed;
+    display: table;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 1.5px 1.5px 1.5px #000000;
+    font-size: 20px;
+    width: 100%;
+
+}
