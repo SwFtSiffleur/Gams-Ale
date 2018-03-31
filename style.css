@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Japoneh');
 
 html, body {
     margin: 0;
@@ -34,20 +33,20 @@ html, body {
     max-width: 1920px;
     margin: 0 auto;
     text-align: center;
-    font-family: cursive
+    font-family: cursive;
 }
 .content h1 {
     font-family: 'Raleway', monospace;
-    color: rgba(255, 255, 255, 0.836);
-    text-shadow:  2px 2px 2px #000000;
+    color: #ffffffe8;
+    text-shadow:  2px 2px 2px #FF0000;
     font-size: 700%;
 }
 .btn {
-    border-radius: 18px;
+    border-radius: 19px;
     font-family: "Oswald", sans-serif;
     background-color: #ffffffe8;
     color: rgb(255, 0, 0);
-    opacity: 0.9;
+    opacity: 0.8;
     font-size: 135%;
     padding: 10px 10px;
     border: solid rgb(255, 0, 0) 2px;
@@ -56,7 +55,7 @@ html, body {
 }
 .btn:hover {
     color: #000000;
-    border: solid #000000 2px;
+   
 }
 .time {
     position: fixed;
