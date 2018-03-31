@@ -1,1 +1,1 @@
-Gams ale
+http://yeet.live
