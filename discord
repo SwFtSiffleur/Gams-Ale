@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <script>window.onload = function() {
     
     // Redirect to the discord server and nothing more.
-
     window.location.href = "https://discord.gg/TmnuxuS";
 }</script>
+</html>
