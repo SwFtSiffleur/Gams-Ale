@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -11,6 +11,7 @@ html, body {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
 .intro {
     z-index: -1;
     height: 100%;
@@ -21,29 +22,32 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
+
 .intro .inner {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
     max-width: none;
 }
+
 .content {
     max-width: 1920px;
     margin: 0 auto;
     text-align: center;
     font-family: cursive;
 }
+
 .content h1 {
     font-family: 'Raleway', monospace;
     color: #ffffffe8;
-    text-shadow:  2px 2px 2px #FF0000;
+    text-shadow: 2px 2px 2px #FF0000;
     font-size: 700%;
 }
+
 .btn {
     border-radius: 19px;
-    font-family: "Oswald", sans-serif;
+    font-family: "Droid Serif", sans-serif;
     background-color: #ffffffe8;
     color: rgb(255, 0, 0);
     opacity: 0.8;
@@ -53,10 +57,11 @@ html, body {
     text-transform: uppercase;
     text-decoration: none;
 }
+
 .btn:hover {
     color: #000000;
-   
 }
+
 .time {
     position: fixed;
     display: table;
@@ -65,5 +70,4 @@ html, body {
     text-shadow: 1.5px 1.5px 1.5px #000000;
     font-size: 20px;
     width: 100%;
-
 }
