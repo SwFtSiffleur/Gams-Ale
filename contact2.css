@@ -87,7 +87,6 @@ h1,h2,h3 {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    background-color: #2C2F33;
     padding: 1em 0
 }
 
