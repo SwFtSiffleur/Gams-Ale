@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: #2C2F33;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 28%;
+}
+
+.content img {
+    align-content: center;
+}
+
+.btn {
+    border-radius: 18px;
+    font-family: "Raleway", sans-serif;
+    opacity: 0.8;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 135%;
+    text-decoration: none;
+}
+
+.btn2 {
+    border-radius: 18px;
+    font-family: "Raleway", sans-serif;
+    opacity: 0.8;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 135%;
+    text-decoration: none;
+}
+
+
+/*--- Media Queries --*/
+
+@media screen and (max-width: 900px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}
