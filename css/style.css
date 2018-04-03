@@ -47,7 +47,7 @@ body {
 
 .btn {
     border-radius: 19px;
-    font-family: "Droid Serif", sans-serif;
+    font-family: "Droid Serif", monospace;
     background-color: #ffffffe8;
     color: rgb(255, 0, 0);
     opacity: 0.8;
