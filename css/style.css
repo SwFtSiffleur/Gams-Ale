@@ -63,17 +63,7 @@ body {
     border: solid #000000 1px;
 }
 
-.btn2 {
-    border: solid white 2px;
-    color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    cursor: pointer;
-}
 
-.btn2:hover {
-    border: solid red 2px;
-}
 
 .time {
     position: fixed;
@@ -83,4 +73,50 @@ body {
     text-shadow: 1.5px 1.5px 1.5px #000000;
     font-size: 20px;
     width: 100%;
+}
+
+.social_btn {
+    border-radius: 19px;
+    border: solid white 2px;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.social_btn:hover {
+    border: solid red 2px;
+}
+
+.social_intro {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: table;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.social_intro .social_inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.social_content {
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: cursive;
+}
+
+.social_content h1 {
+    font-family: 'Raleway', monospace;
+    color: #ffffffe8;
+    text-shadow: 1px 1px 1px red;
+    font-size: 700%;
 }
